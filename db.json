@@ -1,0 +1,235 @@
+{
+    "messagesText": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "TextViewType",
+                            "contentText": "Test Text",
+                            "textSize": 30,
+                            "textColorHex": "#ffffff",
+                            "viewId": "Text1",
+                            "anchor": {
+                                "viewAnchor": "Quarter",
+                                "anchorPosition": "Below",
+                                "spacing": 44
+                            }
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25b1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
+            }
+        ]
+    },
+    "messagesBundle": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "ImageViewType",
+                            "imageUrl": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+                            "imageSize": "Half"
+                        },
+                        {
+                            "_type": "TextViewType",
+                            "contentText": "Test Text",
+                            "textSize": 30,
+                            "textColorHex": "#ffffff",
+                            "viewId": "Text1",
+                            "anchor": {
+                                "viewAnchor": "Quarter",
+                                "anchorPosition": "Below",
+                                "spacing": 44
+                            }
+                        },
+                        {
+                            "_type": "ButtonViewType",
+                            "buttonSpacing": 20,
+                            "viewId": "Button",
+                            "ctas": [
+                                {
+                                    "backgroundColorHex": "#FCB632",
+                                    "textColorHex": "#ffffff",
+                                    "text": "Deeplink!",
+                                    "report": "cta_1",
+                                    "action": {
+                                        "_type": "AppNavigation",
+                                        "appNavigationCommandIOS": "alert",
+                                        "appNavigationCommandAndroid": "http://www.iotco.com/command1"
+                                    },
+                                    "_type": "ButtonCta"
+                                }
+                            ],
+                            "anchor": {
+                                "viewAnchor": "Id",
+                                "anchorPosition": "Above",
+                                "anchorToViewId": "Text1",
+                                "spacing": 0
+                            }
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25b1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
+            }
+        ]
+    },
+    "messagesButton": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "ButtonViewType",
+                            "buttonSpacing": 20,
+                            "viewId": "Button",
+                            "ctas": [
+                                {
+                                    "backgroundColorHex": "#FCB632",
+                                    "textColorHex": "#ffffff",
+                                    "text": "Deeplink!",
+                                    "report": "cta_1",
+                                    "action": {
+                                        "_type": "AppNavigation",
+                                        "appNavigationCommandIOS": "alert",
+                                        "appNavigationCommandAndroid": "http://www.iotco.com/command1"
+                                    },
+                                    "_type": "ButtonCta"
+                                },
+                                {
+                                    "backgroundColorHex": "#f54263",
+                                    "textColorHex": "#ffffff",
+                                    "text": "Button 2",
+                                    "report": "cta_1",
+                                    "action": {
+                                        "_type": "AppNavigation",
+                                        "appNavigationCommandIOS": "alert",
+                                        "appNavigationCommandAndroid": "http://www.iotco.com/command1"
+                                    },
+                                    "_type": "ButtonCta"
+                                }
+                            ],
+                            "anchor": {
+                                "viewAnchor": "Half",
+                                "anchorPosition": "Above",
+                                "spacing": 0
+                            }
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25a1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
+            }
+        ]
+    },
+    "messagesButtonSingle": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "ButtonViewType",
+                            "buttonSpacing": 20,
+                            "viewId": "Button",
+                            "ctas": [
+                                {
+                                    "backgroundColorHex": "#f54263",
+                                    "textColorHex": "#ffffff",
+                                    "text": "Button 2",
+                                    "report": "cta_1",
+                                    "action": {
+                                        "_type": "AppNavigation",
+                                        "appNavigationCommandIOS": "alert",
+                                        "appNavigationCommandAndroid": "showToast"
+                                    },
+                                    "_type": "ButtonCta"
+                                }
+                            ],
+                            "anchor": {
+                                "viewAnchor": "ThreeQuarter",
+                                "anchorPosition": "Above",
+                                "spacing": 0
+                            }
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25a1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
+            }
+        ]
+    },
+    "unsupported": {
+        "messages": [
+            {
+                "trigger": {
+                    "_type": "NoEventTrigger"
+                },
+                "presentation": {
+                    "viewTypes": [
+                        {
+                            "_type": "ButtonViewType",
+                            "button1Text": "Button 1",
+                            "button2Text": "Button 2 text",
+                            "buttonNumber": 2,
+                            "buttonSpacing": 20,
+                            "viewId": "Button",
+                            "anchor": {
+                                "viewAnchor": "Half",
+                                "anchorPosition": "Above",
+                                "spacing": 0
+                            }
+                        },
+                        {
+                            "_type": "unsupported",
+                            "button1Text": "Button 1",
+                            "button2Text": "Button 2 text",
+                            "viewId": "Button",
+                            "anchor": {
+                                "viewAnchor": "Half",
+                                "anchorPosition": "Above",
+                                "spacing": 0
+                            }
+                        }
+                    ],
+                    "_type": "FullScreenInAppModel"
+                },
+                "id": "613dd1af13cbc6707a5a25a1",
+                "report": {
+                    "campaign_name": "test_inapp",
+                    "step_number": "test_inapp"
+                }
+            }
+        ]
+    }
+}
